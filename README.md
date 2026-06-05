@@ -61,6 +61,7 @@ hub-aprendizagem/
 | # | Título | Data | Temas |
 |---|---|---|---|
 | 01 | [Engenharia Reversa de um Ecossistema Vivo](./capitulos/cap-01-engenharia-reversa.md) | 2026-06-05 | Falhas sistêmicas, GAPs estruturais, Defense in Depth, SEV, AAR, ADR |
+| 02 | [A Lição da Separação: Executor e Auditor](./capitulos/cap-02-separacao-executor-auditor.md) | 2026-06-05 | Viés de confirmação, Defense in Depth, W05, separação executor/auditor |
 
 ---
 
