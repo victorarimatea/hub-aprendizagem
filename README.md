@@ -1,6 +1,6 @@
 # hub-aprendizagem
 
-**Tipo:** Infraestrutura de conhecimento
+**Tipo:** Documento (D03)
 **Versão:** v1.0 — 2026-06-05
 **Repositório:** https://github.com/victorarimatea/hub-aprendizagem
 **Mantenedor:** victorarimatea
