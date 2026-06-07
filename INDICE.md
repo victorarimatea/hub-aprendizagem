@@ -1,7 +1,7 @@
 # Índice — hub-aprendizagem
 
-**Última atualização:** 2026-06-05
-**Total de arquivos:** 6
+**Última atualização:** 2026-06-07
+**Total de arquivos:** 7
 
 > Repositório de memória intelectual do ecossistema DTD/SETIS.
 
@@ -32,6 +32,7 @@
 |---|---|---|
 | `capitulos/cap-01-engenharia-reversa.md` | Engenharia Reversa de um Ecossistema Vivo | 2026-06-05 |
 | `capitulos/cap-02-separacao-executor-auditor.md` | A Lição da Separação: Executor e Auditor | 2026-06-05 |
+| `capitulos/cap-03-conhecimento-como-query.md` | Conhecimento como Query: Quando o Documento Deixa de Ser o Produto | 2026-06-07 |
 
 ---
 
