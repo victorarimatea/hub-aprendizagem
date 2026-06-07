@@ -1,5 +1,26 @@
 # Backlog de Versões — hub-aprendizagem
 
+## v1.1 — 2026-06-07
+
+**Tipo de alteração:** Adição de conteúdo (novo capítulo)
+**Autorizado por:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
+**Exposição de motivos:** A sessão de design do wiki-ecossistema (2026-06-07)
+consolidou um aprendizado arquitetural de alto valor: a distinção entre informação
+que deve ser materializada como documento e informação que deve ser derivada sob
+demanda como query. O insight nasceu de uma prática manual de ~10 anos (a grade de
+referências normativas iniciada no SAMU-DF) e foi levado ao limite na discussão
+de que o índice normativo não precisa ser mantido à mão — é propriedade emergente
+de fontes bem indexadas. O capítulo registra também a fronteira viva/congelada,
+o ganho de eficiência cognitiva para agentes (capítulos temáticos como "respostas
+padrão" da máquina) e o risco de erosão de critério. Registrado com contexto fresco
+conforme protocolo Etapa 6-A / W03 Etapa 2-B.
+
+### Conteúdo adicionado (v1.1)
+- `capitulos/cap-03-conhecimento-como-query.md` — Conhecimento como Query: arquitetura
+  em três camadas (fontes/índice/temas), índice como query, fronteira viva/congelada,
+  eficiência cognitiva de agentes e erosão de critério
+- `INDICE.md` — atualizado (total 6 → 7; cap-03 registrado)
+
 ## v1.0 — 2026-06-05
 
 **Tipo de alteração:** Criação
