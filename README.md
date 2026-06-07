@@ -1,7 +1,7 @@
 # hub-aprendizagem
 
 **Tipo:** Documento (D03)
-**Versão:** v1.0 — 2026-06-05
+**Versão:** v1.1 — 2026-06-07
 **Repositório:** https://github.com/victorarimatea/hub-aprendizagem
 **Mantenedor:** victorarimatea
 **Visibilidade:** Público
