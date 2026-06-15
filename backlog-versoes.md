@@ -1,3 +1,17 @@
+
+## v1.3 — 2026-06-15
+
+**Tipo de alteração:** Adição
+**Autorizado por:** victorarimatea
+**Exposição de motivos:** Depósito do corolário E1 aprovado na sessão W04 de 2026-06-15.
+A separação executor/auditor gerou um corolário prático identificado ao longo das
+sessões: o auditor não deve escrever o próprio log. A lição foi redigida com contexto
+fresco na sessão W04 e aguardava depósito formal em sessão operacional.
+
+### Alterações realizadas
+- `capitulos/cap-02-separacao-executor-auditor.md`: adicionada Seção 8 "O corolário que a prática revelou: o auditor não escreve o próprio log"
+- `capitulos/cap-02-separacao-executor-auditor.md`: adicionada Lição 6 ao bloco de lições permanentes (Seção 7)
+
 ## v1.2 — 2026-06-16
 
 **Tipo:** Adição
