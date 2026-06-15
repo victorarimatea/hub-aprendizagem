@@ -1,3 +1,17 @@
+## v1.2 — 2026-06-16
+
+**Tipo:** Adição
+**Tópico afetado:** Boas práticas operacionais — acesso a dados
+**Fonte:** Curadoria T1 (W04, 2026-06-08); item I5 da fila de missões herdadas
+**Proposto por:** victorarimatea
+
+**Mudanças:**
+- `capitulos/cap-04-api-vs-raw.md` criado — cap-04: API vs raw.githubusercontent.com (cache coherence, read-after-write consistency, doutrina de dois tokens)
+- `capitulos/referencias/benchmarks.md` atualizado — entrada Cache Coherence / Read-After-Write Consistency adicionada
+- `INDICE.md` atualizado — cap-04 adicionado, contagem 7→8, data atualizada
+
+---
+
 # Backlog de Versões — hub-aprendizagem
 
 ## v1.1 — 2026-06-07
