@@ -156,3 +156,27 @@ própria e escopo exaustivo.
 
 *Atualizar sempre que uma nova referência externa for identificada e validada.*
 *Cada entrada deve ter: origem, definição, relação com o ecossistema e referências.*
+---
+
+## Cache Coherence / Read-After-Write Consistency
+
+**Origem:** Sistemas distribuídos / literatura de banco de dados e CDN
+**Referência no ecossistema:** cap-04 (API vs raw.githubusercontent.com)
+
+**O que é:**
+Cache coherence descreve a garantia de que todas as réplicas de um dado
+compartilhado convergem para o mesmo valor. Read-after-write consistency é
+uma propriedade específica: após uma escrita bem-sucedida, qualquer leitura
+subsequente reflete aquela escrita imediatamente.
+
+**Por que importa aqui:**
+CDNs (como a que serve `raw.githubusercontent.com`) operam sob *consistência
+eventual* — a réplica converge, mas não instantaneamente. Isso significa que
+uma leitura via raw logo após um PUT pode devolver a versão anterior do arquivo.
+A GitHub Contents API (`api.github.com`) não passa por esse cache, oferecendo
+read-after-write consistency para operações autenticadas.
+
+**Princípio derivado:**
+Canais de acesso ao mesmo dado fazem trade-offs diferentes. O canal mais
+conveniente costuma relaxar alguma garantia. A escolha correta depende da
+garantia que a operação exige — não da conveniência do canal.
