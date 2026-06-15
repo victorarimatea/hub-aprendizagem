@@ -187,6 +187,49 @@ fundamentos já testados.
 
 ---
 
+**Lição 6 — O auditor não escreve o próprio log**
+A separação executor/auditor não se completa se o relato de encerramento
+for escrito apenas pelo executor. O log deve incluir o que o auditor independente
+encontrou — inclusive os erros que o executor não havia detectado. A prática
+empírica do ecossistema mostra que auditoria independente captura sistematicamente
+uma classe de erros que o contexto de execução ancora e invisibiliza. Registrar
+apenas o que o executor fez é registrar parcialmente.
+
+---
+
+## 8. O corolário que a prática revelou: o auditor não escreve o próprio log
+
+A lição central deste capítulo — que o executor não deve auditar o próprio trabalho
+— gerou um corolário que só se tornou visível quando o ecossistema começou a
+acumular sessões reais: **o auditor também não deve escrever o próprio log.**
+
+A separação executor/auditor foi implementada entre a S04 (que executa) e o W05
+(que audita). O que ficou invisível por mais tempo é que o W05, quando encerrava
+sua auditoria, estava depositando o relatório dentro do próprio fluxo que ia
+corrigir as divergências — e o chat que corrigia era o mesmo que depois escrevia
+o registro de encerramento.
+
+O padrão se repetia: auditor detecta, executor corrige, executor registra.
+O registro narrava o que o executor viu. O que o auditor independente detectou
+— inclusive os erros que o executor não viu — ficava fora do relato por default.
+
+A resolução foi simples, mas só se tornou óbvia retrospectivamente: o log da
+auditoria vive no relatório de sessão (W03), depositado após a convergência ser
+confirmada, com o relato completo do ciclo — incluindo quantas iterações foram
+necessárias e quais divergências o executor não havia detectado sozinho.
+O auditor detecta e reporta. O executor registra — mas o que registra inclui
+o que o auditor encontrou, não apenas o que o executor fez.
+
+Este corolário não estava na teoria original da separação executor/auditor.
+Emergiu da observação de que auditorias independentes estavam encontrando coisas
+que o executor havia declarado resolvidas. A evidência empírica é que sessões com
+W05 em chat separado capturam uma classe de erros que o mesmo agente no mesmo
+contexto simplesmente não detecta — porque o contexto de execução ancora as
+expectativas do executor de forma que a auditoria interna não consegue superar.
+
+---
+
+
 *Este capítulo foi produzido na sessão de 2026-06-05, imediatamente após*
 *a criação do W05 — com o contexto inteiro da jornada ainda presente.*
 *É a narrativa do raciocínio que levou a uma das decisões arquiteturais*
