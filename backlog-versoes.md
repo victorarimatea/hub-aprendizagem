@@ -12,7 +12,7 @@ fresco na sessão W04 e aguardava depósito formal em sessão operacional.
 - `capitulos/cap-02-separacao-executor-auditor.md`: adicionada Seção 8 "O corolário que a prática revelou: o auditor não escreve o próprio log"
 - `capitulos/cap-02-separacao-executor-auditor.md`: adicionada Lição 6 ao bloco de lições permanentes (Seção 7)
 
-## v1.2 — 2026-06-16
+## v1.4 — 2026-06-16
 
 **Tipo:** Adição
 **Tópico afetado:** Boas práticas operacionais — acesso a dados
