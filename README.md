@@ -33,11 +33,11 @@ e sessões de construção em arquitetura amadurecida.
 
 A diferença em relação aos outros instrumentos do ecossistema:
 
-| Instrumento | Responde à pergunta |
-|---|---|
-| `backlog-versoes.md` | O que foi alterado e por quê? |
-| `CHANGELOG.md` | O que foi entregue e quando? |
-| `hub-aprendizagem` | O que aprendemos, o que isso significa, e como se compara com o que o mundo já sabe? |
+| Arquivo | Nome legível | Escopo | Responde à pergunta |
+|---|---|---|---|
+| `backlog-versoes.md` | Histórico de Versões | Por repositório | O que foi alterado neste repositório e por quê? |
+| `CHANGELOG.md` | Diário de Entregas | `hub-entrada` — ecossistema inteiro | O que foi entregue, quando, em qual repositório? |
+| `hub-aprendizagem` | Tratado de Aprendizagem | `hub-aprendizagem` — memória intelectual | O que aprendemos, o que isso significa, e como se compara com o que o mundo já sabe? |
 
 ---
 
