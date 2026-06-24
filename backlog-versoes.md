@@ -1,3 +1,17 @@
+## v1.4.1 — 2026-06-24
+
+**Tipo:** Correção / Melhoria de documentação
+**Autorizado por:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
+
+**Mudanças:**
+- `README.md` reescrito (OP-E, sessão 2026-06-24): título alterado de `hub-aprendizagem`
+  para `ATLAS — Aprendizagem`; descrição expandida com narrativa da dinâmica de sessões,
+  amadurecimento da arquitetura e intenção de consolidação do conhecimento; seção Estrutura
+  sincronizada com os 4 capítulos reais (cap-03 e cap-04 estavam ausentes — divergências F1/F2
+  corrigidas); tabela de capítulos publicados atualizada com cap-03 e cap-04; seção Navegação
+  adicionada (padrão do ecossistema); contexto D03/ATLAS declarado na ficha técnica e no rodapé.
+
+---
 
 ## v1.4 — 2026-06-16
 
